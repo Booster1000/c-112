@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Emotion to Emoji</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>
+<body>
+    <h1 id="ee">
+        EMOTION TO EMOJI
+        <br>
+        <span>&#128522</span>
+        <span>&#128516</span>
+        <span>&#128519</span>
+        <span>&#129297</span>
+        <span>&#128520</span>
+        <span>&#128557</span>
+        <span>&#128545</span>
+        <span>&#128523</span>
+    </h1>
+
+    <h2 id="bb">Take your selfie to generate emoji!!!!</h2>
+    <div class="container1">
+        <h1>Are you angry?</h1>
+        <h1>Are you sad?</h1>
+        <h1>Are you happy?</h1>
+    </div>
+<br>
+    <div class="left">
+        <h3 class="i">Webcam View</h3>
+        <br>
+        <div id="webcam_view"></div>
+        <br>
+        <button class="btn btn-danger" onclick="take_snapshot()">Capture Image</button>
+    </div>
+
+
+
+    <div class="right">
+        <h3 class="i">Snapshot</h3>
+        <br>
+        <div id="snapshot"></div>
+        <br>
+        <button class="btn btn-danger" onclick="check()">Predict Emotion</button>
+    </div>
+
+
+    <div class="center">
+        <h3 class="v">Prediction 1 - </h3>
+        <h2 id="emotion_1"></h2>
+        <h2 id="emoji_1"></h2>
+        <br>
+        <h3 class="v">Prediction 2 - </h3>
+        <h2 id="emotion_2"></h2>
+        <h2 id="emoji_2"></h2>
+    </div>
+
+    <script src="main.js"></script>
+</center>
+</body>
+
+</html>

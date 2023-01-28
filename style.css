@@ -1,0 +1,101 @@
+body {
+    background-color: #cfcfcf;
+    background-image: linear-gradient(160deg, #cfcfcf 0%, #000000 100%);
+    font-size: 40px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+#ee {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    color: #8400ff;
+    text-shadow: 2px 2px 2px crimson;
+}
+
+#bb {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+.container1 {
+    background-color: #ffa400;
+    background-image: linear-gradient(45deg, #ffa400 0%, #ff0000 100%);
+    padding: 5px;
+    width: 15%;
+    border-radius: 5px;
+    color: peachpuff;
+    box-shadow: 5px 5px 10px rgb(195, 0, 255);
+}
+
+.left {
+    float: left;
+    margin-left: 150px;
+    background-color: #0060de;
+    background-image: linear-gradient(90deg, #0060de 0%, #00ffe5 100%);
+    padding: 5px;
+    width:30%;
+    border-radius: 5px;
+    color: peachpuff;
+    box-shadow: 5px 5px 10px peachpuff;
+    margin-bottom: 10px;
+}
+
+.right {
+    float: right;
+    margin-right: 150px;
+    width:30%;
+    background-color: #0060de;
+    background-image: linear-gradient(90deg, #0060de 0%, #00ffe5 100%);
+    padding: 5px;
+    border-radius: 5px;
+    color: peachpuff;
+    box-shadow: 5px 5px 10px peachpuff;
+    margin-bottom: 10px;
+}
+
+.center {
+    float: center;
+    background-color: #48ff79;
+    padding: 5px;
+    background-image: linear-gradient(45deg, #48ff79 0%, #ffffff 100%);
+    padding: 5px;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 5px 10px red;
+    margin-bottom: 10px;
+}
+
+.i {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(14, 255, 14);
+    width: 50%;
+}
+
+.v {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color:yellow;
+    width: 50%;
+}
+
+#webcam_view {
+    height: 300px;
+    width: 400px;
+}
+
+#snapshot {
+    height: 300px;
+    width: 400px;
+}
